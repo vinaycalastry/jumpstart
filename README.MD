@@ -16,8 +16,9 @@ Running `jumpstart` will display all available commands
 	 - `jumpstart list`
 	 - Sample Output:
 		 The following links to quickstart codes are stored:
-		1: electron (https://github.com/electron/electron-quick-start.git)
-		2: html5 (https://github.com/h5bp/html5-boilerplate.git)
+		`The following links to quickstart codes are stored:
+1: electron (https://github.com/electron/electron-quick-start.git)
+2: html5 (https://github.com/h5bp/html5-boilerplate.git)`
  - new - *Downloads the quick-start code for the given project*
 	 - Browse to path
 	 - `cd <pathname>`
