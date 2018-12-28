@@ -4,7 +4,7 @@ jumpstart is a CLI tool to organize and save all of your quickstart code links.
 ## Installation
 Run go get <<link>> to install the program
 
-    go get https://github.com/vinaycalastry/jumpstart.git
+    go get github.com/vinaycalastry/jumpstart
     
 ## Usage
 Running `jumpstart` will display all available commands
