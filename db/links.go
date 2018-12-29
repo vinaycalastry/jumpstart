@@ -79,3 +79,15 @@ func FindLink(title string) ([]byte, error) {
 
 	return url, nil
 }
+
+func DeleteLink(title string) error {
+	err := db.Update(func(tx *bolt.Tx) error {
+		b := tx.Bucket(linkBucket)
+		return b.Delete([]byte(title))
+	})
+
+	if err != nil {
+		return err
+	}
+	return nil
+}

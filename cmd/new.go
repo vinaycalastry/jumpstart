@@ -26,7 +26,7 @@ var newCmd = &cobra.Command{
 			fmt.Println("Cloning the quickstart repo failed")
 			return
 		}
-		fmt.Printf("Quickstart code for: %s has been downloaded to current directory", title)
+		fmt.Printf("Quickstart code for %s has been downloaded to current directory\n", title)
 	},
 }
 
