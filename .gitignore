@@ -1,3 +1,8 @@
 
 #Exclude executables
 *.exe
+
+#VScode specific files
+.vscode
+launch.json
+debug
